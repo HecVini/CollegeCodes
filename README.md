@@ -14,6 +14,7 @@ So, I've downloaded a 15k rows FAO time series with meat production, by country,
 Here you can find the [script](https://1drv.ms/u/s!AjVW0s-wFcYmhYgJmcyQMpTK9krPlQ?e=kOgAeq) and the original [database](https://1drv.ms/u/s!AjVW0s-wFcYmhYgKZr6RKEd7aflbsg?e=qJvmBw).
 
 ![](https://github.com/HecVini/CollegeCodes/blob/main/Computacao_CodePrint.png)
+
 _(Seriously, I have no idea what I was doing in that piece of script. Luckily, now I regularly comment codes and understandably call stuff)_
 
 It is so interesting to check it two years later. Progress since then is clear and it has been worth spending hours learning Python with a real-life example. 
