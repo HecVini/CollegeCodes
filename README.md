@@ -1,17 +1,21 @@
 # CollegeCodes
-All code scripts written during my B.Sc in Economics at FGV/EPGE. Mainly in R, but also some Python - and a lot of DataViz./n
-This repo aims to be record my progress on coding skills. I have learned Python in late 2020 and R in early 2021. Since then, I've used it on dozens college projects and on my internship at Observatório de Bioeconomia/FGV - which is a topic for another repository.
+This repository aims to be a time machine. I hope I check it in the future and feel proud looking into a hard, but steady, progress ladder. It's been nearly three years since I took my first programming class, and I have been using coding skills almost daily. 
 
-I list every project below and link it to codes and datasets used. It was really interesting to summarize it all. It if pretty grateful to look backwards and see how much we can improve in a year. This is a reminder that there is nothing unlearnble, and everything can be improved. 
+This is a summary of the main work I've done during my Economics undergraduate at Fundacao Getulio Vargas (2019 - 2022). Those were four years of intense learning, a lot of economic theory, and discoveries. Four years ago, I simply didn't know the universe of **really interesting** things I would discover over that journey. This repository is just a piece of it all.
 
-# 2020.2 – Cattle Analysis (Pyhon Class Final Project)
-My first ever project was actually done in Python. I would learn R just a semester later. The guidelines were simple: choose a dataset and do some analysis. We had some freedom to do it, and the main goal was to force the students to learn Python by doing it. Whenver a trouble showed up, StackOverflow was the path - and, personally, I learned much on that way.
-You can find the script here, and the original datasets here. 
-There was no formal presentation or written summary, but the code is totally commented. It was mainly done with Pandas and Plotly. It was the first time I got in touch with DataViz
+### 2020.2 – Meat Production: a Worldwide Analysis
+##### Pyhon Class Final Project
+My first contact with programming languages was actually in Python. I would just discover R months later. It was a 60h introductory course with the basic syntax and helpful libraries on explanatory data analysis (EDA). 
 
-# 2021.1 - Economic Policy in Brazil, Chile and Argentina (R Class Final Project)
-Then, R came into my lige. The grading structure was a learn by doing project on whatever we wanted. I choose to analyse the macroeconomics of Brazil, Chile and Argentina in the 70s and the 80s. By that time, I was enroled in an undergraduation reaserch projet (PIBIC), in which I was surveying this liretature. The R project main work was on inflation, exchange rates e GDP data. 
-The hole code is here, alogside with raw data and charts.
-Checking it a year later is so cool. I can't believe that I used to code in that way just a year ago. I simply cannot understant what I was doing in some parts, neither why I was so addicted to loops - seriously, there are double loops to do what pivot_longer() does ONE line.
+The final project was composed of a simple task: clean a dataset and analyze it. By that time, I was enrolled in a research project on the Brazillian meat market, and I picked a dataset related to it. 
+
+So, I've downloaded a 15k rows FAO time series with meat production, by country, since 1990. That main challenge was to clean it, in such a way that I could present the main producers over time, by meat type. It took me some two weeks - and a lot of help from Stack Overflow - to make the interactive charts with Plotly. 
+
+Here you can find the [script](https://1drv.ms/u/s!AjVW0s-wFcYmhYgJmcyQMpTK9krPlQ?e=kOgAeq) and the original [database](https://1drv.ms/u/s!AjVW0s-wFcYmhYgKZr6RKEd7aflbsg?e=qJvmBw).
+
+![](https://github.com/HecVini/CollegeCodes/blob/main/Computacao_CodePrint.png)
+_(Seriously, I have no idea what I was doing in that piece of script. Luckily, now I regularly comment codes and call stuff in an understandable way)_
+
+It is so interesting to check it two years later. Progress since then is clear and it has been worth spending hours learning Python with a real-life example. 
 
 
