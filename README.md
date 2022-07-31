@@ -27,7 +27,7 @@ In both projects, I compiled data on the macroeconomics of those countries, incl
 
 Codes [here](https://1drv.ms/u/s!AjVW0s-wFcYmhYgSVCJS8-vBJxYHCQ?e=q8KhMh) and [here](https://1drv.ms/u/s!AjVW0s-wFcYmhYgmqHDzj2AW57vpBg?e=uhgAZt).
 
-![](https://github.com/HecVini/CollegeCodes/blob/main/DoubleLoop_PIBIC.png)
+![](https://github.com/HecVini/CollegeCodes/blob/main/DoubleLoop_PIBIC.png)<br/>   
 _(I can't believe I used double loops. If this project taught me something thing it was: that there is a package for everything you need.)_
 
 This was the first contact I had with R. It is so interesting to see how my coding skills have improved since then. By that time, I didn't know many useful packages like {lubridate} and {tidylog}. I clearly remember that I spent a whole day trying to covert a wide-format table into a long one. I solved it with an inefficient double loop, that could be easily replaced by tidyr::pivot_longer( ).
