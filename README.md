@@ -33,7 +33,7 @@ This was the first contact I had with R. It is so interesting to see how my codi
 
 Since then, I've learned a lot of new DataViz techniques and kept studying this incredible tool. The next step is to learn machine learning and sophisticated DataViz tools.
 
-## 2021.2 – Forecasting Deforestation with VAR Model
+## 2021.2 – Forecasting Deforestation with a VAR Model
 ##### Econometrics II Final Project
 In late 2021, I took a course on the time series. In Econometrics 2, we learned AR, MA, ARMA, ARCH/GARCH, VAR, and PCA models. As a final project, we could apply one of them to a real-life problem. 
 
