@@ -85,6 +85,10 @@ In this course, the grading structure was comprised of a project in which each g
 
 Although we didn't use sophisticated econometrics, my group used official data to estimate that an EU-like Brazilian ETS wouldn't cover much of the country's emissions. Due to the high proportion of non-energy-related emissions in Brazil, if policymakers in Brasilia desire to create a tropical carbon market, they should think about a manner to tackle deforestation and tax cattle emissions.
 
+<p align="center">
+  <img width="800" src="https://github.com/HecVini/CollegeCodes/blob/main/ComposicaoEmissoes.png" >
+</p>
+
 Like I did on the environmental economics summary, I used R to make the data cleaning, and {ggplot2} to do the DataViz. This was an opportunity to deal with Coase literature, and it might be the seed of some future project.
 
 Here you can check the [code](https://1drv.ms/u/s!AjVW0s-wFcYmhYhYabubWD3kM8DFRQ?e=XL4yvm) and the [final report](https://1drv.ms/b/s!AjVW0s-wFcYmhYhdqb1uczYJUdiXLg?e=BxRFut).
