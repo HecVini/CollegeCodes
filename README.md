@@ -9,7 +9,7 @@ My first contact with programming languages was actually in Python. I would just
 
 The final project was composed of a simple task: clean a dataset and analyze it. By that time, I was enrolled in a research project on the Brazillian meat market, and I picked a dataset related to it. 
 
-So, I've downloaded a 15k rows FAO time series with meat production, by country, since 1990. That main challenge was to clean it, in such a way that I could present the main producers over time, by meat type. It took me some two weeks - and a lot of help from Stack Overflow - to make the interactive charts with Plotly. 
+So, I've downloaded a 12k rows FAO time series with meat production, by country, since 1990. That main challenge was to clean it, in such a way that I could present the main producers over time, by meat type. It took me some two weeks - and a lot of help from Stack Overflow - to make the interactive charts with Plotly. 
 
 Here you can find the [script](https://1drv.ms/u/s!AjVW0s-wFcYmhYgJmcyQMpTK9krPlQ?e=kOgAeq) and the original [database](https://1drv.ms/u/s!AjVW0s-wFcYmhYgKZr6RKEd7aflbsg?e=qJvmBw).
 
@@ -29,7 +29,10 @@ In both projects, I compiled data on the macroeconomics of those countries, incl
 
 Codes [here](https://1drv.ms/u/s!AjVW0s-wFcYmhYgSVCJS8-vBJxYHCQ?e=q8KhMh) and [here](https://1drv.ms/u/s!AjVW0s-wFcYmhYgmqHDzj2AW57vpBg?e=uhgAZt).
 
-![](https://github.com/HecVini/CollegeCodes/blob/main/DoubleLoop_PIBIC.png)
+<p align="center">
+  <img width="800" src="https://github.com/HecVini/CollegeCodes/blob/main/DoubleLoop_PIBIC.png" >
+</p>
+
 _(I can't believe I used double loops. If this project taught me something thing it was: that there is a package for everything you need.)_
 
 This was the first contact I had with R. It is so interesting to see how my coding skills have improved since then. By that time, I didn't know many useful packages like {lubridate} and {tidylog}. I clearly remember that I spent a whole day trying to covert a wide-format table into a long one. I solved it with an inefficient double loop, that could be easily replaced by tidyr::pivot_longer( ).
@@ -53,8 +56,12 @@ Lastly, I showed the OLS-estimated coefficients, impulse-response functions, and
 Here you can find the [script](https://1drv.ms/u/s!AjVW0s-wFcYmhYhPQu05pd0zBwMX4g?e=cYDnyd), [original datasets](https://1drv.ms/u/s!AjVW0s-wFcYmhYkPkW54k8HwvBArVQ?e=cMTKfH), and the [final report](https://1drv.ms/b/s!AjVW0s-wFcYmhYhTUfnNTSiEk8n7dg?e=lrhtWb).
 
 Coefficients table. Only 14 of the 48 coefficients passed the significance test.
-![](https://github.com/HecVini/CollegeCodes/blob/main/VAR_CoefficientsEstimates.png)
-_In this project, alongside the ordinary EDA packages, I used {aTSA}, {vars}, {stats} and {lmtest} to perform the econometrics._
+
+<p align="center">
+  <img width="800" src="https://github.com/HecVini/CollegeCodes/blob/main/VAR_CoefficientsEstimates.png" >
+</p>
+
+(_In this project, alongside the ordinary EDA packages, I used {aTSA}, {vars}, {stats} and {lmtest} to perform the econometrics._)
 
 I clearly remember spending days understanding the econometrics of time series. [Econometrics with R](https://www.econometrics-with-r.org/14-ittsraf.html) helped me a lot. This was the first time I coined a model with real data. Unfortunately, the lack of Granger causality led to inefficient results.
 
@@ -64,9 +71,20 @@ In early 2022 I was intern at [Observatório de Bioeconomia](https://eesp.fgv.br
 
 In this semester, we learned the theory and saw some of its applications. As a final project, we had to present a paper about one of the discussed topics. So, I presented [Bayer and Aklin (2020)](https://www.pnas.org/doi/pdf/10.1073/pnas.1918128117). In this paper, the authors estimated the effectiveness of the EU Emissions Trading System using a Synthetic Control Method. Using UNFCCC and EU data, they found that in the absence of the ETS, between 2008 and 2016, the bloc's emissions would be nearly 4% higher than they were. That is, the EU would have emitted additional 1.2 bn tons of CO2.
 
-![](https://github.com/HecVini/CollegeCodes/blob/main/Environmental_BayerAndAklin.png)<br/>
+<p align="center">
+  <img width="800" src="https://github.com/HecVini/CollegeCodes/blob/main/Environmental_BayerAndAklin.png" >
+</p>
 
 To show the paper results, I used the common EDA packages and DataViz techniques. This was an opportunity to get in touch with causal inference literature and improve DataViz skills. The presentation slides were done in Canva, and it is all available [here](https://1drv.ms/p/s!AjVW0s-wFcYmhYkaJUfy8fB1D2oSIA?e=g1Fc3h). 
 
 ## 2022.1 – Coase and Carbon Markets: could Brazil import EU Regulation?
 ##### Law and Economics Final Project
+Lastly, I also worked with carbon markets on Law and Economics final project. This was a course mainly about the Economic Analysis of Law, and Coase Theorem was one of the main topics. According to [Coase (1960)](https://www.law.uchicago.edu/files/file/coase-problem.pdf), under perfect information, low transition costs, and full property rights, Pareto efficiency is always hit. In real life, this is the background of carbon trading systems.
+
+In this course, the grading structure was comprised of a project in which each group should perform a hypothesis test. Having the EU ETS in mind, we asked ourselves: could Brasil import European carbon market rules? As half of the Brazilian emissions are related to deforestation and cattle raising, two activities that are hard to monitor, we suspected that Brazil wouldn't have an efficient carbon market if just importing EU rules.
+
+Although we didn't use sophisticated econometrics, my group used official data to estimate that an EU-like Brazilian ETS wouldn't cover much of the country's emissions. Due to the high proportion of non-energy-related emissions in Brazil, if policymakers in Brasilia desire to create a tropical carbon market, they should think about a manner to tackle deforestation and tax cattle emissions.
+
+Like I did on the environmental economics summary, I used R to make the data cleaning, and {ggplot2} to do the DataViz. This was an opportunity to deal with Coase literature, and it might be the seed of some future project.
+
+Here you can check the [code](https://1drv.ms/u/s!AjVW0s-wFcYmhYhYabubWD3kM8DFRQ?e=XL4yvm) and the [final report](https://1drv.ms/b/s!AjVW0s-wFcYmhYhdqb1uczYJUdiXLg?e=BxRFut).
