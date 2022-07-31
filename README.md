@@ -26,7 +26,7 @@ In both projects, I compiled data on the macroeconomics of those countries, incl
 
 Codes [here](https://1drv.ms/u/s!AjVW0s-wFcYmhYgSVCJS8-vBJxYHCQ?e=q8KhMh) and [here](https://1drv.ms/u/s!AjVW0s-wFcYmhYgmqHDzj2AW57vpBg?e=uhgAZt).
 
-![](https://github.com/HecVini/CollegeCodes/blob/main/DoubleLoop_PIBIC.png)
+![](https://github.com/HecVini/CollegeCodes/blob/main/DoubleLoop_PIBIC.png)<br/>
 _(I can't believe I used double loops. If this project taught me something thing it was: that there is a package for everything you need.)_
 
 This was the first contact I had with R. It is so interesting to see how my coding skills have improved since then. By that time, I didn't know many useful packages like {lubridate} and {tidylog}. I clearly remember that I spent a whole day trying to covert a wide-format table into a long one. I solved it with an inefficient double loop, that could be easily replaced by tidyr::pivot_longer( ).
@@ -50,7 +50,7 @@ Lastly, I showed the OLS-estimated coefficients, impulse-response functions, and
 Here you can find the [script](https://1drv.ms/u/s!AjVW0s-wFcYmhYhPQu05pd0zBwMX4g?e=cYDnyd), [original datasets](https://1drv.ms/u/s!AjVW0s-wFcYmhYkPkW54k8HwvBArVQ?e=cMTKfH), and the [final report](https://1drv.ms/b/s!AjVW0s-wFcYmhYhTUfnNTSiEk8n7dg?e=lrhtWb).
 
 Coefficients table. Only 14 of the 48 coefficients passed the significance test.
-![](https://github.com/HecVini/CollegeCodes/blob/main/VAR_CoefficientsEstimates.png)
+![](https://github.com/HecVini/CollegeCodes/blob/main/VAR_CoefficientsEstimates.png)<br/>
 _In this project, alongside the ordinary EDA packages, I used {aTSA}, {vars}, {stats} and {lmtest} to perform the econometrics._
 
 I clearly remember spending days understanding the econometrics of time series. [Econometrics with R](https://www.econometrics-with-r.org/14-ittsraf.html) helped me a lot. This was the first time I coined a model with real data. Unfortunately, the lack of Granger causality led to inefficient results.
