@@ -1,5 +1,5 @@
 # CollegeCodes
-This repository aims to be a time machine. I hope I check it in the future and feel proud looking into a hard, but steady, progress ladder. It's been nearly three years since I took my first programming class, and I have been using coding skills almost daily. 
+This repository is a time capsule. I've picked and showed the projects that I used some coding during college in order to track the improving on my R and Python skills. It's been nearly three years since I took my first programming class, and I have been it almost daily. 
 
 This is a summary of the main work I've done during my Economics undergraduate at Fundacao Getulio Vargas (2019 - 2022). Those were four years of intense learning, a lot of economic theory, and discoveries. Four years ago, I simply didn't know the universe of **really interesting** things I would discover over that journey. This repository is just a piece of it all.
 
@@ -88,3 +88,4 @@ Although we didn't use sophisticated econometrics, my group used official data t
 Like I did on the environmental economics summary, I used R to make the data cleaning, and {ggplot2} to do the DataViz. This was an opportunity to deal with Coase literature, and it might be the seed of some future project.
 
 Here you can check the [code](https://1drv.ms/u/s!AjVW0s-wFcYmhYhYabubWD3kM8DFRQ?e=XL4yvm) and the [final report](https://1drv.ms/b/s!AjVW0s-wFcYmhYhdqb1uczYJUdiXLg?e=BxRFut).
+
